@@ -1,16 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <router-link :to="{name: 'goodbye'}">goodbye</router-link>
+    <router-link :to="{name: 'hello'}">hello</router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'goodbye',
   data () {
     return {
-      msg: 'Hello route'
+      msg: 'Goodbye route'
     }
   }
 }
