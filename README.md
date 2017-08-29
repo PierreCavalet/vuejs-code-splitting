@@ -1,21 +1,4 @@
-# vuejs-performances
+# vuejs-code-splitting
 
-> An example of a vuejs project using different performance optimization techniques with explanations
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+> This repository is a support for a code splitting [tutorial](https://medium.com/@cavalet.pierre/how-to-use-webpack-code-splitting-with-vue-js-112ab7a821ee)
+with Vue.js and Webpack.
