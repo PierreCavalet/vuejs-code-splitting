@@ -1,18 +1,18 @@
 <template>
-  <div class="hello">
+  <div class="bar">
     <h1>{{ msg }}</h1>
+    <router-link :to="{name: 'hello'}">hello</router-link>
     <router-link :to="{name: 'goodbye'}">goodbye</router-link>
     <router-link :to="{name: 'foo'}">foo</router-link>
-    <router-link :to="{name: 'bar'}">bar</router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'bar',
   data () {
     return {
-      msg: 'Hello route'
+      msg: 'Bar route'
     }
   }
 }

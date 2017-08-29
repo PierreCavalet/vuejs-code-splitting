@@ -1,7 +1,9 @@
 <template>
-  <div class="hello">
+  <div class="goodbye">
     <h1>{{ msg }}</h1>
     <router-link :to="{name: 'hello'}">hello</router-link>
+    <router-link :to="{name: 'foo'}">foo</router-link>
+    <router-link :to="{name: 'bar'}">bar</router-link>
   </div>
 </template>
 
